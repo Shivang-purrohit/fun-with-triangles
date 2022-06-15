@@ -12,9 +12,5 @@ function calculate() {
     const sumOfSides = calculateSides(Number(inputTaken[0].value),Number(inputTaken[1].value))
    
     outputShow.innerText = "area of triangle is " + sumOfSides ;
-   
-    
-    
-
 }
 btnCheck.addEventListener("click" , calculate)
