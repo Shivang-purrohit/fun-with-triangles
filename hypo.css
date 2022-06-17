@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Kdam+Thmor+Pro&family=Montserrat:ital,wght@1,300;1,400;1,700&family=Pacifico&display=swap');
+
+body{
+    background-color: rgb(2, 2, 41);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+nav{
+    padding: 2rem;
+    background-color:  #ff3aad;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+
+}
+.edit{
+    text-decoration: none;
+    color: rgb(2, 2, 41);
+    
+}
+
+
+.container1{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    color: #ff3aad;
+    
+}
+
+
+#output-msg
+{
+ font-size: x-large;
+    margin: 3rem;
+    color: #ff3aad;
+    text-align: center;
+
+}
+
+#btn-cal{
+    
+     margin: 2rem;
+    width: 30%;
+    padding: 0.5rem;
+    background-color: #ff3aad;
+    border: 0.8rem;
+    color: rgb(2, 2, 41);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin-left: 3rem;
+    font-size: larger;
+
+}
+
+
+h1{
+    font-family: 'pacifico';
+    color: white;
+    animation: neon 5s infinite;
+    text-align: center;
+
+}
+
+@keyframes neon {
+    0%, 39%, 41%, 59%, 61%, 100% {
+        text-shadow: white 0 0 12px,
+        #ff3aad 0 0 24px,
+        #ff3aad 0 0 36px;
+}
+40%, 60% {
+    text-shadow: none;
+}    
+}
+
+.active{
+    font-weight: bold;
+
+}
+
+.quiz-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #ff3aad;
+}
+
+
+
+
+.set{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
