@@ -20,43 +20,45 @@ nav{
 }
 
 
-.container{ 
+.container1{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     
     color: #ff3aad;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    
 }
-.sides{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 30%;
-    margin: 0.5rem;
-    color: #ff3aad;
-    background-color: rgba(5, 5, 67, 0.626);
-}
+
 
 #output{
  font-size: x-large;
     margin: 3rem;
+    color: #ff3aad;
+    text-align: center;
+
 }
 
-#button{
-    margin: 2rem;
-    width: 20%;
+#btnSubmit{
+    
+     margin: 2rem;
+    width: 30%;
     padding: 0.5rem;
     background-color: #ff3aad;
     border: 0.8rem;
     color: rgb(2, 2, 41);
     font-family: 'Kdam Thmor Pro', sans-serif;
+    margin-left: 3rem;
+    font-size: larger;
+
 }
+
 
 h1{
     font-family: 'pacifico';
     color: white;
     animation: neon 5s infinite;
+    text-align: center;
 
 }
 
@@ -84,6 +86,15 @@ h1{
     color: #ff3aad;
 }
 
-h1{
-    text-align: center;
+
+
+
+.set{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
+
+
+
