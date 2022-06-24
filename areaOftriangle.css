@@ -20,19 +20,18 @@ nav{
 }
 
 
-.container1{ 
+.container { 
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 1rem;
     
     color: #ff3aad;
     
 }
 
 
-#output-msg
+#output
 {
  font-size: x-large;
     margin: 3rem;
@@ -41,10 +40,10 @@ nav{
 
 }
 
-#btn-cal{
+#btn-check{
     
-    margin: 2rem;
-    width: 25%;
+     margin: 2rem;
+    width: 20%;
     padding: 0.5rem;
     background-color: #ff3aad;
     border: 0.8rem;
@@ -80,14 +79,13 @@ h1{
 
 }
 
-.set{
+
+
+
+.inputs{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-}
-
-.sides{
     background-color: rgba(5, 5, 67, 0.626);
     color: #ff3aad;
 }
@@ -120,12 +118,14 @@ h1{
 footer{
 
 font-size: small;
-    padding: 7rem;
-    margin-top: 1rem;
+    padding: 10rem;
+    margin-top: 6rem;
     text-align: center;
 }
 
 .txtdecor:hover{
     border-bottom: 1px solid #ff3aad ;
 }
+
+
 

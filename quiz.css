@@ -96,5 +96,32 @@ h1{
     
 }
 
+.txtdecor{
+    text-decoration: none;
+    color: #ff3aad;
 
+}
+.social link{
+    list-style: none;
+    text-align: center;
+}
 
+.link
+{
+    display: inline;
+    padding: 1rem;
+    
+
+}
+
+footer{
+
+font-size: small;
+    padding: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.txtdecor:hover{
+    border-bottom: 1px solid #ff3aad ;
+}
